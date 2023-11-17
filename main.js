@@ -177,15 +177,16 @@
 
 
 // **********FUNCTIONS*****************
-// function add(a,b){
+// function add(a,b){                           //normal function
 //     return a+b
 // }
 
-// const arrowSum=(a,b)=>{
+// const arrowSum=(a,b)=>{                      //arrow function
 //     return a+b
 // }
 
-const arrowSum=(a,b)=>a+b
+// const arrowSum=(a,b)=>a+b                    //arrow function in one line
 
-const sum=arrowSum(4,5)
-console.log(sum)
+// const sum=arrowSum(4,5)
+// console.log(sum)
+
