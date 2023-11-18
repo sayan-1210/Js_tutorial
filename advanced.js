@@ -164,23 +164,23 @@
 // console.log(batman.sayMyName())
 
 // ***************ITERABLES&ITERATORS*****************
-const obj={                                                      //making a iterator
-    [Symbol.iterator]:function(){
-        let step=0
-        const iterator={
-            next:function(){
-                step++
-                if (step === 1){
-                    return {value: 'Hello', done: false}
-                } else if (step === 2){
-                    return {value: 'World', done: false}
-                }
-                return {value: undefined, done: true}
-            }
-        }
-        return iterator
-    }
-}
+// const obj={                                                      //making a iterator
+//     [Symbol.iterator]:function(){
+//         let step=0
+//         const iterator={
+//             next:function(){
+//                 step++
+//                 if (step === 1){
+//                     return {value: 'Hello', done: false}
+//                 } else if (step === 2){
+//                     return {value: 'World', done: false}
+//                 }
+//                 return {value: undefined, done: true}
+//             }
+//         }
+//         return iterator
+//     }
+// }
 
 // for (const word of obj){                    //use of iterables
 //     console.log(word)
